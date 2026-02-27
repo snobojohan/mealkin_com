@@ -70,13 +70,16 @@ h1 {
   color: var(--color-text-inverse);
   padding: 0.75rem 1.2rem;
   border-radius: var(--radius-full);
-  font-weight: 600;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   transition: transform var(--transition-base), background-color var(--transition-base);
 }
 
 .link {
   color: #000;
   letter-spacing: 0.2px;
+  text-underline-offset: 5px;
 }
 
 .cta:hover,
