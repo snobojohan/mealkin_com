@@ -64,16 +64,24 @@ h1 {
 
 .cta {
   margin-top: var(--space-8);
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   text-decoration: none;
   background: var(--color-primary);
   color: var(--color-text-inverse);
   padding: 0.75rem 1.2rem;
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-lg);
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: transform var(--transition-base), background-color var(--transition-base);
+}
+
+.cta__icon {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
 }
 
 .link {
